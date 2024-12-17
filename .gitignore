@@ -1,66 +1,11 @@
-# Fichiers compilés
-*.o
-*.obj
-*.exe
-*.out
-*.app
-*.dll
-*.dylib
-*.so
-
-# Fichiers de build
-build/
-Debug/
-Release/
-*.dSYM/
-
-# Fichiers d'en-tête
-*.h
-*.hpp
-*.hxx
-*.hh
-
-# Fichiers de projet et IDE
-.vscode/
-.idea/
-*.sln
-*.vcxproj
-*.vcxproj.filters
-*.xcodeproj
-*.xcworkspace
-*.suo
-*.user
-*.userosscache
-*.sdf
-*.opensdf
-
-# Fichiers de cache et temporaires
-.cache/
-*.tmp
-*.temp
-*.swp
-*~
-
-# Fichiers de dépendances
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-
-# Fichiers spécifiques au système
-.DS_Store
-Thumbs.db
-
-# Fichiers compilés
-*.o
-*.out
-*.exe
-
-# Fichiers exécutables
+# Ignorer tous les fichiers
 *
+
+# Ne pas ignorer les dossiers
 !*/
+
+# Ne pas ignorer les fichiers .cpp
 !*.cpp
-!*.h
-!*.hpp
+
+# Ne pas ignorer le .gitignore
 !.gitignore
-!README.md
