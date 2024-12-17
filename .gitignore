@@ -56,6 +56,11 @@ Thumbs.db
 *.out
 *.exe
 
-# Garder les fichiers source
+# Fichiers exécutables
+*
+!*/
 !*.cpp
-!*.c
+!*.h
+!*.hpp
+!.gitignore
+!README.md
