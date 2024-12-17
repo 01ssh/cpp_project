@@ -1,31 +1,19 @@
 #include <iostream>
-#include <cstdlib>
 using namespace std;
 
 // This program shows a number guessing game
 
 int main() {
-    int magic, guess, life;
     
-    magic = rand() % 10 + 1;
+ int x;
 
-    for (life = 0; life < 10; life++) {
-        cout << "Enter a guess: ";
-        cin >> guess;
-        
-        if (guess == magic) {
-            cout << "You win!\n";
-            return 0;
-        } else if (guess > magic) {
-            cout << "Too high!\n";
-        } else {
-            cout << "Too low!\n";
-        }
-        
-        if (life == 10) {
-            cout << "You lost! The number was " << magic << ".\n";
-        }
-    }
+for (x = 0; x < 6; x++) {
+    if(x == 1) cout << "X is one\n";
+    else if(x == 2) cout << "X is two\n";
+    else if(x == 3) cout << "X is three\n";
+    else if(x == 4) cout << "X is four\n";
+    else cout << "X is not between 1 and 5\n";
 
-    return 0;
+}
+
 }
