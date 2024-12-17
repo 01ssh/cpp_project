@@ -50,3 +50,12 @@ Makefile
 # Fichiers spécifiques au système
 .DS_Store
 Thumbs.db
+
+# Fichiers compilés
+*.o
+*.out
+*.exe
+
+# Garder les fichiers source
+!*.cpp
+!*.c
