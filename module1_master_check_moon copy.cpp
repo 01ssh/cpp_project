@@ -8,7 +8,7 @@ double moon_gravity;
 int counter;
 
 
-    for(earth_gravity = 1; earth_gravity <= git pull origin main100; earth_gravity++){
+    for(earth_gravity = 1; earth_gravity <= 100; earth_gravity++){
         moon_gravity = earth_gravity * 0.17;
         cout << " When the earth gravity is " << earth_gravity << " The moon gravity is " << moon_gravity << " \n";
         
