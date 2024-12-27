@@ -12,6 +12,5 @@ absolute = abs(number);
 
 cout << "The absolute value of your number is " << absolute;
 
-
 }
 
